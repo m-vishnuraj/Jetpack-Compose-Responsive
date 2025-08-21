@@ -149,7 +149,7 @@ fun NavigationDrawerContent(navController: NavHostController) {
     ) {
         // App title
         Text(
-            text = "Finity TechCraft",
+            text = "Fixware Technologies",
             style = MaterialTheme.typography.headlineSmall,
             color = MaterialTheme.colorScheme.primary,
             modifier = Modifier.padding(bottom = 32.dp)

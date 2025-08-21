@@ -48,7 +48,7 @@ fun HomeScreen() {
     ) {
         // Welcome section
         Text(
-            text = "Welcome to Finity TechCraft",
+            text = "Welcome to Fixware Technologies",
             style = when (windowSize) {
                 WindowSize.COMPACT -> MaterialTheme.typography.headlineMedium
                 WindowSize.MEDIUM -> MaterialTheme.typography.headlineLarge
