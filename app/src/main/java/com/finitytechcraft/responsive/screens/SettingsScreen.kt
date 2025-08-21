@@ -199,7 +199,7 @@ fun SettingsScreen() {
                     horizontalAlignment = Alignment.CenterHorizontally
                 ) {
                     Text(
-                        text = "Finity TechCraft",
+                        text = "Fixware Technologies",
                         style = MaterialTheme.typography.titleMedium,
                         fontWeight = FontWeight.Medium
                     )

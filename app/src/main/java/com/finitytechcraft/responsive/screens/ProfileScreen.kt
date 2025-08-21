@@ -36,9 +36,9 @@ fun ProfileScreen() {
     val padding = getResponsivePadding().dp
 
     val profileInfo = listOf(
-        ProfileInfo(Icons.Default.Email, "Email", "john.doe@finitytechcraft.com"),
-        ProfileInfo(Icons.Default.Phone, "Phone", "+1 (555) 123-4567"),
-        ProfileInfo(Icons.Default.LocationOn, "Location", "San Francisco, CA"),
+        ProfileInfo(Icons.Default.Email, "Email", "vishnu@fixwaretechnologies.com"),
+        ProfileInfo(Icons.Default.Phone, "Phone", "+91 XXXXXXXXXXX"),
+        ProfileInfo(Icons.Default.LocationOn, "Location", "Cochin, India"),
         ProfileInfo(Icons.Default.Work, "Department", "Engineering"),
         ProfileInfo(Icons.Default.Person, "Role", "Senior Developer")
     )
@@ -172,7 +172,7 @@ fun ProfileHeader() {
             Spacer(modifier = Modifier.height(16.dp))
 
             Text(
-                text = "John Doe",
+                text = "Vishnuraj M",
                 style = MaterialTheme.typography.headlineMedium,
                 fontWeight = FontWeight.Bold
             )
@@ -184,7 +184,7 @@ fun ProfileHeader() {
             )
 
             Text(
-                text = "Finity TechCraft",
+                text = "Fixware Technologies",
                 style = MaterialTheme.typography.bodyMedium,
                 color = MaterialTheme.colorScheme.primary
             )
